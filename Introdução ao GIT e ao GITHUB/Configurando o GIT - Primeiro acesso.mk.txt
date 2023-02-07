@@ -1,0 +1,17 @@
+##Configurando o primeiro acesso ao git 
+
+#1º Após instalação do GIT, iniciar programa 
+
+**#Escrever** 
+git config --global user.email "*email do usuario"*
+
+**#Escrever** 
+git config --global user.name "*name*" 
+
+Caso seja necessario resetar as configurações acima  
+
+**#Escrever** 
+git config --global --unset user.name
+
+**#Escrever** 
+git config --global --unset user.email 
